@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stowarzyszenie 2TRY</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f9fb;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(90deg, #00539C 60%, #00b4d8 100%);
+      color: #fff;
+      padding: 30px 0 10px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav li {
+      margin: 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      padding: 8px 18px;
+      border-radius: 20px;
+      transition: background 0.2s, color 0.2s;
+    }
+    nav a:hover, nav a:focus {
+      background: rgba(255,255,255,0.18);
+      color: #ffd700;
+    }
+    .hero {
+      background: linear-gradient(120deg, #e0e0e0 60%, #caf0f8 100%);
+      padding: 80px 20px 60px 20px;
+      text-align: center;
+      box-shadow: 0 4px 24px rgba(0,83,156,0.08);
+      border-radius: 0 0 32px 32px;
+      margin-bottom: 40px;
+    }
+    .hero h1 {
+      margin: 0 0 18px 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #00539C;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #333;
+      margin: 0;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto 40px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    section {
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 2px 12px rgba(0,83,156,0.06);
+      padding: 32px 28px;
+      margin-bottom: 0;
+      transition: box-shadow 0.2s;
+    }
+    section:hover {
+      box-shadow: 0 6px 24px rgba(0,83,156,0.13);
+    }
+    h2 {
+      color: #00539C;
+      margin-top: 0;
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 10px;
+      font-size: 1.08rem;
+    }
+    .contact a {
+      color: #00b4d8;
+      text-decoration: none;
+      font-weight: 700;
+      transition: color 0.2s;
+    }
+    .contact a:hover {
+      color: #00539C;
+      text-decoration: underline;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 24px 10px;
+      font-size: 1rem;
+      border-radius: 24px 24px 0 0;
+      box-shadow: 0 -2px 12px rgba(0,83,156,0.08);
+      margin-top: 40px;
+    }
+    @media (max-width: 700px) {
+      .container {
+        padding: 0 6px;
+      }
+      section {
+        padding: 20px 10px;
+      }
+      .hero {
+        padding: 50px 10px 30px 10px;
+      }
+      header h1 {
+        font-size: 1.5rem;
+      }
+      nav ul {
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Stowarzyszenie 2TRY</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">O nas</a></li>
+        <li><a href="#mission">Cele</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Witamy w Stowarzyszeniu 2TRY</h1>
+    <p>Promujemy kulturę, technologię, turystykę i wsparcie społeczne.</p>
+  </section>
+
+  <div class="container">
+    <section id="about">
+      <h2>O nas</h2>
+      <p>Stowarzyszenie 2TRY zostało zarejestrowane 24 stycznia 2025 roku w Krakowie. Naszą misją jest wspieranie artystów, ochrony dziedzictwa, sportu lotniczego oraz działalności charytatywnej.</p>
+    </section>
+
+    <section id="mission">
+      <h2>Nasze cele</h2>
+      <ul>
+        <li>Promocja sztuki i designu</li>
+        <li>Wsparcie innowacji i przedsiębiorczości</li>
+        <li>Ochrona kulturowa i przyrodnicza</li>
+        <li>Rozwój turystyki i sportu</li>
+        <li>Akcje społeczne i pomoc charytatywna</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Kontakt</h2>
+      <p>W razie pytań prosimy o kontakt:</p>
+      <p><a href="mailto:kontakt@2try.pl">kontakt@2try.pl</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Stowarzyszenie 2TRY. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+</body>
+</html>
